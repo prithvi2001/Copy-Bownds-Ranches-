@@ -123,7 +123,7 @@ var tl = gsap.timeline({
     scrollTrigger: {
         trigger: "svg",
         scroller: "#main",
-        markers: "true",
+      //  markers: "true",
         start: "top 45%",
         end: "top -50%",
         scrub: true,
@@ -149,7 +149,7 @@ var tl2 = gsap.timeline({
     scrollTrigger: {
         trigger: "svg",
         scroller: "#main",
-        markers: "true",
+      //  markers: "true",
         start: "top -340%",
         end: "top -340%",
         scrub: true,
